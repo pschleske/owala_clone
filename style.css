@@ -200,6 +200,13 @@ button {
     top: 8%;
     left: .07%;
     width: 1000px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-heigh 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 1000px;
 }
 
 .sub-menu {

@@ -20,7 +20,7 @@
 <body>
     <header>
         <!-- <a href="">Drinkware</a> -->
-        <a href="#" class="arrow-link" onclick="toggleArrow()">Drinkware<img
+        <a href="#" class="arrow-link" onclick="toggleArrow();toggleMenu()">Drinkware<img
                 src='https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png' class="arrow"></a>
         <a href="#" class="arrow-link2" onclick="toggleArrow2()"> Accessories<img
                 src='https://www.iconpacks.net/icons/2/free-arrow-down-icon-3101-thumb.png' class="arrow2"></a>
@@ -35,7 +35,7 @@
         <a href="">Search</a>
         <a href="">Cart</a>
 
-        <div class="sub-menu-wrap">
+        <div class="sub-menu-wrap" id="subMenu">
             <div class="sub-menu">
                 <div class="free-sip">
                     <div style="display: flex; flex-direction: row;">
