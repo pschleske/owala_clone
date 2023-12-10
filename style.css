@@ -1,0 +1,292 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+}
+
+#hero {
+    width: 100%;
+}
+
+#sellers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#sellers img {
+    width: 200px;
+    height: 200px;
+}
+
+#bottle1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#bottles {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottles>div {
+    text-align: center;
+    margin: 0 10px;
+}
+
+#paragraphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote {
+    width: 65%;
+    text-align: center;
+}
+
+#quote2 {
+    width: 65%;
+    text-align: center;
+}
+
+#instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#instagram2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#instagram2>div {
+    margin: 0 10px;
+}
+
+#instagram2 img {
+    width: 210px;
+    height: 210px;
+}
+
+#icons {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#icons img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+#formcontainer {
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    background-color: #343a40;
+    color: white;
+    font-weight: 400;
+    padding: 15px 40px;
+    margin-left: 42%;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+#box1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* header links here */
+.arrow-link {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.arrow {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+.arrow-link.clicked .arrow {
+    transform: translateY(-50%) rotateX(180deg);
+}
+
+.arrow-link2 {
+    position: relative;
+    text-decoration: none;
+    color: #000;
+}
+
+.arrow2 {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s;
+}
+
+.arrow-link2.clicked .arrow2 {
+    transform: translateY(-50%) rotateX(180deg);
+}
+
+/* submenu styles here */
+.sub-menu-wrap {
+    position: absolute;
+    top: 8%;
+    left: .07%;
+    width: 1000px;
+}
+
+.sub-menu {
+    background-color: white;
+    margin-right: 100px;
+}
+
+.sub-menu img {
+    width: 75px;
+}
+
+.sub-menu div {
+    width: 65%;
+    margin-left: 20px;
+}
+
+.free-sip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.tumbler {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.tumbler2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.smooth-sip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.cosmic-collection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.marvel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.kids {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+#arrow-right {
+    width: 16px;
+    height: 16px;
+}
+
+.side-img {
+    padding: 2rem;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.side-img img {
+    width: 170px;
+    height: 190px;
+}
