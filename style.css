@@ -194,7 +194,7 @@ button {
     transform: translateY(-50%) rotateX(180deg);
 }
 
-/* submenu styles here */
+/* drinkware submenu styles here */
 .sub-menu-wrap {
     position: absolute;
     top: 8%;
@@ -202,7 +202,7 @@ button {
     width: 1000px;
     max-height: 0px;
     overflow: hidden;
-    transition: max-heigh 0.5s;
+    transition: max-height 0.5s;
 }
 
 .sub-menu-wrap.open-menu {
@@ -294,6 +294,111 @@ button {
 }
 
 .side-img img {
+    width: 170px;
+    height: 190px;
+}
+
+/* accessories subMenu styles here */
+
+.accessories-wrap {
+    position: absolute;
+    top: 8%;
+    left: .07%;
+    width: 1000px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.accessories-wrap.open-menus {
+    max-height: 1000px;
+}
+
+.sub-menu-2 {
+    background-color: white;
+    margin-right: 100px;
+}
+
+.sub-menu-2 img {
+    width: 75px;
+}
+
+.sub-menu-2 div {
+    width: 65%;
+    margin-left: 20px;
+}
+
+.two-in-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.bottle-boot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.pet-bowl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.gift-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.beach-towels {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.cleaning-tablets {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+.stickers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #d8d6d6;
+    padding: 20px;
+}
+
+/* #arrow-right {
+    width: 16px;
+    height: 16px;
+} */
+
+.accessories-side-img {
+    padding: 2rem;
+    margin-right: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+}
+
+.accessories-side-img img {
     width: 170px;
     height: 190px;
 }
