@@ -14,3 +14,8 @@ let subMenu = document.getElementById("subMenu")
 function toggleMenu() {
     subMenu.classList.toggle("open-menu")
 }
+
+let subMenus = document.getElementById("subMenus")
+function toggleMenu2() {
+    subMenus.classList.toggle("open-menus")
+}
